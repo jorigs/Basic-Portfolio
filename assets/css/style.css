@@ -3,6 +3,9 @@
 body {
 	color: #777777;
 	font-family: Arial, Helvetica, Sans-serif;
+	background-color: lightgrey;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .wrapper {
@@ -27,6 +30,7 @@ header {
 .header {
 	width: 250px;
 	text-align: center;
+	margin-top: 0px;
 	padding: 30px 20px 30px 20px;
 	color: white;
 	background-color: #4aaaa5;
@@ -36,6 +40,7 @@ header {
 
 nav {
 	float: right;
+	background-color: white;
 }
 
 nav ul li {
@@ -51,6 +56,7 @@ nav ul li a {
 	border-spacing: 5px;
 	display: inline-block;
 }
+
 
 #about {
 	padding-right: 20px;
@@ -71,44 +77,60 @@ nav ul li a {
 
 .subContent {
 	width: 960px;
-}
-
-.headshot {
-	position: absolute;
+	float: right;
 }
 
 .aboutMe {
-	clear: both;
 	width: 650px;
+	background-color: white;
 }
+
+#bio {
+	background-color: white;
+	float: left;
+	margin: 0px;
+}
+
+.headshot {
+	position: fixed;
+	clear: left;
+}
+
 
 /* Contact Me */
 
 .contactMe {
 	text-align: center;
-	width: 270px;
+	width: 290px;
 	float: right;
 	border-spacing: 5px;
 	display: inline-block;
+	background-color: white;
+	border: 1px solid #777777;
 }
 
 #connect {
-	border-bottom: 5px solid #777777;
-	padding: 5px 5px 5px 5px;
-	border: 5px 5px 5px 5px;
-	background-color: #777777;
+	align-content: center;
+	width: 50%;
+	border-bottom: 1px solid lightgrey;
+	padding: 5px 10px 20px 10px;
+	margin: 10px 10px 10px 50px;
+
 }
 
 #github {
-	padding: 5px 5px 5px 5px;
+	margin: 15px 5px 10px 5px;
+	
 }
 
 #linkedin {
-	padding: 5px 5px 5px 5px;
+	margin: 15px 5px 10px 5px;
+	
 }
 
 #stackoverflow {
-	padding: 5px 5px 5px 5px;
+	margin: 15px 5px 10px 5px;
+	border: 1px solid lightgrey;
 }
 
 
