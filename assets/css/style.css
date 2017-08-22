@@ -10,10 +10,18 @@ body {
 	margin: 0px 400px 0px 400px;
 }
 
+h2 {
+	color: #4aaaa5;
+	font-family: georgia, times, serif;
+}
+
 /* Header Section */
 
 header {
 	background-color: #777777;
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 .header {
@@ -62,11 +70,7 @@ nav ul li a {
 /* Bio Section */
 
 .subContent {
-}
-
-.aboutme-header {
-	color: #4aaaa5;
-	font-family: georgia, times, serif;
+	width: 960px;
 }
 
 .headshot {
@@ -78,13 +82,43 @@ nav ul li a {
 	width: 650px;
 }
 
+/* Contact Me */
+
+.contactMe {
+	text-align: center;
+	width: 270px;
+	float: right;
+	border-spacing: 5px;
+	display: inline-block;
+}
+
+#connect {
+	border-bottom: 5px solid #777777;
+	padding: 5px 5px 5px 5px;
+	border: 5px 5px 5px 5px;
+	background-color: #777777;
+}
+
+#github {
+	padding: 5px 5px 5px 5px;
+}
+
+#linkedin {
+	padding: 5px 5px 5px 5px;
+}
+
+#stackoverflow {
+	padding: 5px 5px 5px 5px;
+}
+
+
 /* Footer */
 
 .footer {
 	background: #666666;
 	color: #F0F0F0;
 	font-weight: bold;
-	font-size: 12pt;
+	font-size: 9pt;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
