@@ -1,5 +1,9 @@
 /* Body Section */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	color: #777777;
 	font-family: Arial, Helvetica, Sans-serif;
@@ -12,6 +16,7 @@ body {
 
 header {
 	background-color: white;
+	margin: 0 auto 0 auto;
 	border-bottom: 2px solid lightgrey;
 }
 
@@ -29,14 +34,15 @@ nav {
 
 nav ul li {
 	display: inline-block;
-	margin: 0px;
+	margin-bottom: 10px;
 }
 
 nav ul li a {
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 	color: #777777;
 	border-spacing: 5px;
+	margin-bottom: 10px;
 }
 
 #about {
@@ -59,45 +65,45 @@ nav ul li a {
 }
 
 h1 {
-	width: 250px;
+	width: 300px;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	margin-left: 350px;
-	padding: 30px 20px 30px 20px;
+	margin-left: 360px;
+	padding: 20px 20px 20px 20px;
 	color: white;
 	background-color: #4aaaa5;
 	font-family: arial, times, serif;
 }
 
+/* Body */
 
 .wrapper {
 	width: 960px;
-	margin: 0px 400px 0px 350px;
+	margin: 0 auto 0 auto;
 }
 
-#subContent {
-	width: 960px;
-	float: right;
-}
+
 
 /* Bio Section */
 
-h2 {
+.aboutMe {
+	float: left;
+	width: 640px;
+	margin: 0px;
+	background-color: white;
+	padding: 0px 20px 20px 20px;
+	margin-top: 20px;
+	border: 1px solid lightgrey;
+}
+
+.aboutMe h2 {
 	color: #4aaaa5;
 	width: 525px;
 	font-family: arial, times, serif;
 	padding: 20px;
 	margin-left: 30px;
 	border-bottom: 3px solid lightgrey;
-}
-
-.aboutMe {
-	width: 640px;
-	margin: 0px;
-	background-color: white;
-	padding: 0px 20px 20px 20px;
-	margin-top: 20px;
 }
 
 
@@ -124,18 +130,22 @@ h2 {
 
 aside {
 	float: right;
+	margin-top: 10px;
 	text-align: center;
-	width: 290px;
+	width: 300px;
 	border-spacing: 5px;
 	background-color: white;
-	border: 1px solid #777777;
-	margin-right: 350px;
+	border: 1px solid lightgrey;
 }
 
-h2 #connect  {
+aside h2 {
+	color: #4aaaa5;
+	padding: 5px;
+	margin-left: 40px; 
+	margin-right: 40px;  
 	text-align: center;
-	border-bottom: 1px solid lightgrey;
-	padding: 5px 20px 20px 20px;
+	border-bottom: 3px solid lightgrey;
+	
 }
 
 #github {
@@ -157,6 +167,7 @@ h2 #connect  {
 /* Footer */
 
 .footer {
+	clear: both;
 	background: #666666;
 	color: #F0F0F0;
 	font-weight: bold;
