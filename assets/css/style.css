@@ -3,9 +3,9 @@
 body {
 	color: #777777;
 	font-family: Arial, Helvetica, Sans-serif;
+	margin: 0px;
+	padding: 0px;
 	background-color: lightgrey;
-	margin-top: 0px;
-	padding-top: 0px;
 }
 
 .wrapper {
@@ -21,67 +21,82 @@ h2 {
 /* Header Section */
 
 header {
-	background-color: #777777;
-	margin: 0 auto;
-	box-sizing: border-box;
-	width: 100%;
+	background-color: white;
+	border-bottom: 2px solid;
 }
 
-.header {
-	width: 250px;
-	text-align: center;
+.nav {
+	float:right;
+	padding-top: 30px;
+	padding-right: 300px;
+	z-index: -1;
 	margin-top: 0px;
-	padding: 30px 20px 30px 20px;
-	color: white;
-	background-color: #4aaaa5;
-	font-family: georgia, times, serif;
-	float: left;
+
+	
 }
 
 nav {
-	float: right;
 	background-color: white;
 }
 
 nav ul li {
 	display: inline-block;
-	padding: 30px 20px 0px 0px;
+	margin: 0px;
 }
 
 nav ul li a {
-	text-transform: capitalize;
 	text-decoration: none;
 	font-size: 18px;
 	color: #777777;
 	border-spacing: 5px;
-	display: inline-block;
 }
 
-
 #about {
-	padding-right: 20px;
+	text-align: center;
+	padding: 0px 10px 0px 20px;
 	border-right: 1px solid #777777;
+
 }
 
 #portfolio {
-	padding-left: -10px;
-	padding-right: 20px;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
 	border-right: 1px solid #777777;
 }
 
 #contact {
-	padding-left: -10px;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	
 }
+
+h1 {
+	width: 250px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 400px;
+	padding: 30px 20px 30px 20px;
+	color: white;
+	background-color: #4aaaa5;
+	font-family: arial, times, serif;
+}
+
 
 /* Bio Section */
 
-.subContent {
+header {
+	margin: 0 auto;
+}
+
+#subContent {
 	width: 960px;
 	float: right;
 }
 
 .aboutMe {
-	width: 650px;
+	width: 640px;
+	margin: 0px;
 	background-color: white;
 }
 
@@ -92,30 +107,29 @@ nav ul li a {
 }
 
 .headshot {
-	position: fixed;
-	clear: left;
+	position: relative;
+	width: 10%;
+
 }
 
 
 /* Contact Me */
 
-.contactMe {
+aside {
+	float: right;
 	text-align: center;
 	width: 290px;
-	float: right;
 	border-spacing: 5px;
-	display: inline-block;
 	background-color: white;
 	border: 1px solid #777777;
+	margin-right: 300px;
 }
 
 #connect {
 	align-content: center;
 	width: 50%;
 	border-bottom: 1px solid lightgrey;
-	padding: 5px 10px 20px 10px;
-	margin: 10px 10px 10px 50px;
-
+	padding: 5px 20px 20px 10px;
 }
 
 #github {
