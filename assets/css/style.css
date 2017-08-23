@@ -1,4 +1,4 @@
-/* DEFAULT */
+/* HOME - ABOUT ME PAGE */
 
 * {
 	box-sizing: border-box;
@@ -100,7 +100,7 @@ h1 a:hover {
 
 .aboutMe {
 	float: left;
-	width: 640px;
+	width: 650px;
 	margin: 0px;
 	background-color: white;
 	padding: 0px 20px 20px 20px;
@@ -120,6 +120,7 @@ h1 a:hover {
 
 #bio {
 	background-color: white;
+	overflow: auto;
 	
 }
 
@@ -143,7 +144,7 @@ aside {
 	float: right;
 	margin-top: 10px;
 	text-align: center;
-	width: 300px;
+	width: 270px;
 	border-spacing: 5px;
 	background-color: white;
 	border: 1px solid lightgrey;
@@ -152,8 +153,8 @@ aside {
 aside h2 {
 	color: #4aaaa5;
 	padding: 5px;
-	margin-left: 40px; 
-	margin-right: 40px;  
+	margin-left: 20px; 
+	margin-right: 20px;  
 	text-align: center;
 	border-bottom: 2px solid lightgrey;
 	
@@ -192,7 +193,8 @@ aside img:hover {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	position: absolute;
+	position: sticky;
+	flex: 1;
 	right: 0;
 	bottom: 0;
 	left: 0;
