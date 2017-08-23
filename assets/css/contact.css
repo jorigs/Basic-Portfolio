@@ -148,6 +148,10 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+#subject {
+	text-rendering: none;
+}
+
 #submit:hover {
 	background-color: white;
 	color: #4aaaa5;
@@ -215,6 +219,7 @@ aside img:hover {
 	bottom: 0;
 	left: 0;
 	border-top: 10px solid #4aaaa5;
+	font-family: 'Roboto', sans-serif;
 }
 
 
