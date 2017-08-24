@@ -120,7 +120,6 @@ h1 a:hover {
 .myPortfolio h2 {
 	color: #4aaaa5;
 	width: 525px;
-	font-family: arial, times, serif;
 	padding: 20px;
 	margin-left: 30px;
 	border-bottom: 3px solid lightgrey;
@@ -128,23 +127,98 @@ h1 a:hover {
 }
 
 
-#bio {
+.content {
 	background-color: white;
 	
 }
 
-#headshot {
+.content h3 {
+	width:250px;
+	height: 50px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 15px 0px 10px 0px;
+	color: white;
+	background-color: #4aaaa5;
+	font-family: 'Roboto', sans-serif;
+	border:none;
+}
+
+.content {
+	width:525px;
+	margin-left: 30px;
+}
+
+.content a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.content a h3 img:hover {
+	color: white;
+	font-style: normal;
+}
+
+
+#hangman {
 	float: left;
 	position: relative;
-	top: 0;
-	left: 30px;
-	margin-right: 40px;
+	margin-bottom: 20px;
 }
 
-.aboutMe p {
-	margin: 20px;
+#hangman h3 {
+	position: absolute;
+	top: 90px;
 }
 
+#rpg {
+	float: right;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#rpg h3 {
+	position: absolute;
+	float: right;
+	top: 90px;
+}
+
+#trivia {
+	clear:both;
+	float: left;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#trivia h3 {
+	position: absolute;
+	top: 90px;
+}
+
+#rutgers {
+	float: right;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#rutgers h3 {
+	position: absolute;
+	float: right;
+	top: 90px;
+}
+
+#rock {
+	clear:both;
+	float: left;
+	position: relative;
+}
+
+#rock h3 {
+	position: absolute;
+	top: 90px;
+}
 
 
 /* Contact Me */
