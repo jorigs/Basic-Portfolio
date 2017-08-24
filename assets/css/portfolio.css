@@ -121,7 +121,7 @@ h1 a:hover {
 	color: #4aaaa5;
 	width: 525px;
 	padding: 20px;
-	margin-left: 30px;
+	margin-left: 20px;
 	border-bottom: 3px solid lightgrey;
 	font-family: 'Roboto', sans-serif;
 }
@@ -129,7 +129,7 @@ h1 a:hover {
 
 .content {
 	background-color: white;
-	
+	overflow: auto;
 }
 
 .content h3 {
@@ -147,7 +147,7 @@ h1 a:hover {
 
 .content {
 	width:525px;
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 .content a {
@@ -226,6 +226,7 @@ h1 a:hover {
 aside {
 	float: right;
 	margin-top: 10px;
+	margin-bottom: 20px;
 	text-align: center;
 	width: 270px;
 	border-spacing: 5px;
@@ -263,6 +264,48 @@ aside img:hover {
 	outline-offset: 2px;
  
 }
+
+section {
+ 	float: right;
+	margin-top: 8px;
+	text-align: center;
+	width: 270px;
+	border-spacing: 5px;
+	background-color: white;
+	border: 1px solid lightgrey;
+ }
+
+section h2 {
+	color: #4aaaa5;
+	padding: 5px;
+	margin-left: 20px; 
+	margin-right: 20px;  
+	text-align: center;
+	border-bottom: 2px solid lightgrey;
+	font-family: 'Roboto', sans-serif;
+}
+
+#quoteDisplay {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 12px 20px;
+	border: 1px solid #4aaaa5;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background-color: white;
+	color: #4aaaa5;
+	border: 1px solid #4aaaa5;
+}
+
 
 
 /* Footer */
