@@ -1,107 +1,75 @@
 <!--CONTACT ME HTML-->
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<meta charset="utf-8">
-	<title>Contact Jordan</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
-	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
-	<script type="text/javascript" src="assets/java/contact.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dosis|Encode+Sans+Semi+Condensed|PT+Sans+Narrow|Roboto|Roboto+Condensed" rel="stylesheet">
-	<link rel="shortcut icon" href="assets/images/clover.ico" type="image/x-icon">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-</head>
-
-<!--BACKGROUND IMAGES-->
-<!-- <body background="assets/images/pink-rice.png"> -->
-<!--<body background="assets/images/topography.png">-->
-<!--<body background="assets/images/new_year_background.png">-->
-<!--<body background="assets/images/subtle_white_feathers.png">-->
-<!--<body background="assets/images/cloth.png">-->
-<!--<body background="assets/images/fabric_of_squares_gray.png">-->
-<!--<body background="assets/images/vertical-waves.png">-->
-<body background="assets/images/grey.png">
-<!--<body background="assets/images/greyfloral.png">-->
-<!--<body background="assets/images/lightpaperfibers.png">-->
-<!--<body background="assets/images/redox_01.png">-->
-<!--<body background="assets/images/white_wall.png">-->
-<!--<body background="assets/images/cream_dust.png">-->
-<!--<body background="assets/images/egg_shell.png">-->
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Jordan</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<script type="text/javascript" src="assets/java/contact.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dosis|Encode+Sans+Semi+Condensed|PT+Sans+Narrow|Roboto|Roboto+Condensed" rel="stylesheet">
+		<link rel="shortcut icon" href="assets/images/clover.ico" type="image/x-icon">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	</head>
+	<body background="assets/images/grey.png">
 		<header>
 			<div class="nav">
 				<nav>
 					<ul>
-					<li><a id="about" href="index.html">About</a></li>
-					<li><a id="portfolio" href="portfolio.html">Portfolio</a></li>
-					<li><a id="contact" href="contact.html">Contact</a></li>
+						<li><a id="about" href="index.html">About</a></li>
+						<li><a id="portfolio" href="portfolio.html">Portfolio</a></li>
+						<li><a id="contact" href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
-
 			<h1><a href="index.html">Jordan Rigsby</a></h1>
-
 		</header>
-
-	<div class="container">
-		<div>
-
-		<div class="contactMe">
-			<h2>Contact Me</h2>
-				<form action="/action_page.php">
-
-    				<label for="name">What do I call you?</label>
-    				<input type="text" id="name" name="firstname" placeholder="Your name..">
-
-					<br><br>
-
-					<label for="email">How do I reach you?</label>
-					<input type="text" id="email" name="Email" placeholder="Your contact email..">
-
-					<br><br>
-
-  					<label for="country">Where do you call home?</label>
-    				<select id="country" name="country">
-    			 		<option value="usa">USA</option>
-    			  		<option value="canada">Canada</option>
-      					<option value="uk">UK</option>
-   					</select>
-					
-    				<label for="subject">Tell me something interesting...</label>
-   					 <textarea id="subject" name="subject" placeholder="Ex: Banging your head against a wall burns 150 calories an hour." style="height:200px"></textarea>
-
-    				<input id="submit" type="submit" value="Submit">
-
-  				</form>
-
+		<div class="container">
+			<div>
+				<div class="contactMe">
+					<h2>Contact Me</h2>
+					<form action="/action_page.php">
+						<label for="name">What do I call you?</label>
+						<input type="text" id="name" name="firstname" placeholder="Your name..">
+						<br><br>
+						<label for="email">How do I reach you?</label>
+						<input type="text" id="email" name="Email" placeholder="Your contact email..">
+						<br><br>
+						<label for="country">Where do you call home?</label>
+						<select id="country" name="country">
+							<option value="usa">USA</option>
+							<option value="canada">Canada</option>
+							<option value="uk">UK</option>
+						</select>
+						
+						<label for="subject">Tell me something interesting...</label>
+						<textarea id="subject" name="subject" placeholder="Ex: Banging your head against a wall burns 150 calories an hour." style="height:200px"></textarea>
+						<input id="submit" type="submit" value="Submit">
+					</form>
+				</div>
 			</div>
-		</div>
-		
-	
-		<aside>
-			<h2>Connect with Me</h2>
+			
+			
+			<aside>
+				<h2>Connect with Me</h2>
 				<a href="https://github.com/jorigs" target="_blank"><img id="github" alt="Github" src="assets/images/if_github_401441.png" width="50px"></a>
 				<a href="https://www.linkedin.com/in/jordan-rigsby-60424b5a/" target="_blank"><img id="linkedin" alt="linkedin" src="assets/images/if_square-linkedin_317725.png" width="50px"></a>
 				<a href="https://stackoverflow.com/users/8440658/jorigs" target="_blank"><img id="stackoverflow" alt="Stackoverflow" src="assets/images/if_stackoverflow_1220346.png" width="50px"></a>
-		</aside>
-		
-		<section class="quote">
-			<h2>Random Facts</h2>
+			</aside>
+			
+			<section class="quote">
+				<h2>Random Facts</h2>
 				
 				<div>
 					<p id="quoteDisplay">Banging your head against a wall burns 150 calories an hour.</p>
 				</div>
 				
 				<button class="btn btn-primary form-control" id="factButton">Teach Me More</button>
-
-		</section>
-	</div>
-
-	<footer class="footer">
-		<p>	&copy; Copyright 2017 Jordan Rigsby</p>
-	</footer>
-
-<script type="text/javascript" src="assets/java/javascript.js"></script>
-
-</body>
-
+			</section>
+		</div>
+		<footer class="footer">
+			<p>	&copy; Copyright 2017 Jordan Rigsby</p>
+		</footer>
+		<script type="text/javascript" src="assets/java/javascript.js"></script>
+	</body>
 </html>
